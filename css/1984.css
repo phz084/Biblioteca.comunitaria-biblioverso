@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  #46682e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #3cb3cc;
+}
+
+nav {
+    background-color: #e0cfcf;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;       
+    list-style: none;      
+}
+
+nav ul li {
+    margin: 0 20px;             
+}
+
+.doações {
+    background-color: #117cc9;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;              
+    justify-content: center;   
+    list-style: none;
+    color: whitesmoke;
+    width: 150%;
+}
+
+a {
+    text-decoration: none; 
+    color:black;   
+}
+
+a:active {
+    color: purple;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.barra-pesquisa input {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.barra-pesquisa button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.barra-pesquisa button i {
+    font-size: 20px;
+}
+
+.corpo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #6fc3ff;
+}
+.container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.container h1 {
+    margin-top: 30px;
+}
+
+.livroinfo p {
+    margin-top: 15px;
+}
+.livroinfo {
+    width: 70%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.livroinfo img {
+    width: 200px;
+}
+
+.botao {
+    background-color: #46682e;
+    color: #117cc9;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.lado {
+    width: 30%;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.lado h2 {
+    color: #3a5a40;
+    margin-top: 20px;
+}
+.lado img {
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(200, 196, 196);
+    padding: 20px;
+    text-size-adjust: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}

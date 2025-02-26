@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  #46682e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #3cb3cc;
+}
+
+nav {
+    background-color: #e0cfcf;  
+    padding: 10px;  
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;       
+    list-style: none;      
+}
+
+nav ul li {
+    margin:0 20px;             
+}
+
+.doações {
+    background-color: #117cc9;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;              
+    justify-content: center;   
+    list-style: none;
+    color: whitesmoke;
+    width: 150%;
+}
+
+a {
+    text-decoration: none; 
+    color:black;   
+}
+
+a:active {
+    color: purple;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.barra-pesquisa input {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.barra-pesquisa button {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.barra-pesquisa button i {
+    font-size: 20px;
+}
+
+.texto-acervo, .texto-exibiçao {
+    text-align: center;
+    margin: 40px 0;
+    color: #117cc9;
+}
+
+.populares, .linha1, .linha2, .linha3, .linha4, .linha5, .linha6, .linha7, .linha8, .linha9, .linha10 {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.populares div, .linha1 div, .linha2 div, .linha3 div, .linha4 div, .linha5 div, .linha6 div, .linha7 div, .linha8 div, .linha9 div, .linha10 div {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.populares img, .linha1 img, .linha2 img, .linha3 img, .linha4 img, .linha5 img, .linha6 img, .linha7 img, .linha8 img, .linha9 img, .linha10 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.populares p, .linha1 p, .linha2 p, .linha3 p, .linha4 p, .linha5 p, .linha6 p, .linha7 p, .linha8 p, .linha9 p, .linha10 p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: rgb(200, 196, 196);
+    padding: 20px;
+    text-size-adjust: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

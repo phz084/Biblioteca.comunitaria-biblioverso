@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  #46682e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #3cb3cc;
+}
+
+nav {
+    background-color: #e0cfcf;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;       
+    list-style: none;      
+}
+
+nav ul li {
+    margin: 0 20px;             
+}
+
+.doações {
+    background-color: #117cc9;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;              
+    justify-content: center;   
+    list-style: none;
+    color: whitesmoke;
+    width: 150%;
+}
+
+a {
+    text-decoration: none; 
+    color:black;   
+}
+
+a:active {
+    color: purple;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.barra-pesquisa input {
+    border: none;  
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.barra-pesquisa button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.barra-pesquisa button i {
+    font-size: 20px;
+}
+h2 {
+    color: #117cc9;
+    font-family:cursive;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #46682e;
+    color:#117cc9;
+    padding: 30px;
+    border-radius: 20px;
+    border: none;
+    width: 13%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button a {
+    color: #117cc9;
+}
+
+button a:active {
+    color: gray;
+}
+
+.botão {
+    display: flex;
+    justify-content: center
+}
+
+.botão {
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: rgb(200, 196, 196);
+    padding: 20px;
+    text-size-adjust: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}

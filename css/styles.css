@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fefff8;
+}
+.corpo { 
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+header {
+    background-color:  #46682e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #3cb3cc;
+}
+
+nav {
+    background-color: #e0cfcf;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;       
+    list-style: none;      
+}
+
+nav ul li {
+    margin: 0 20px;             
+}
+
+.doações {
+    background-color: #117cc9;  
+    padding: 10px 0;  
+    border-radius: 20%;
+    display: flex;              
+    justify-content: center;   
+    list-style: none;
+    color: whitesmoke;
+    width: 150%;
+}
+
+a {
+    text-decoration: none; 
+    color:black;   
+}
+
+a:active {
+    color: purple;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.barra-pesquisa input {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.barra-pesquisa button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.barra-pesquisa button i {
+    font-size: 20px;
+}
+
+.eventos3 {
+    background-color:  rgb(224, 221, 221);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width:auto;
+    border-radius: 15px;
+    align-items: center;
+    padding: 40px;
+}
+
+.livros2 {
+    background-color:  rgb(224, 221, 221);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width:auto;
+    border-radius: 15px;
+    align-items: center;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around
+}
+
+.eventos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.eventos a {
+    color: #117cc9;
+}
+
+.eventos a:active {
+    color: rgb(110, 110, 110);
+}
+
+.eventos h3 {
+    right: 15px;
+}
+
+.eventos button {
+    background-color: #46682e;
+    color: #117cc9;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tmain{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.kids {
+    border-radius: 20%;
+}
+
+.main h1 {
+    color: #117cc9;
+    size: 150%
+}
+
+.livros {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.livros a {
+    color: #117cc9;
+}
+
+.livros a:active {
+    color: rgb(110, 110, 110);
+}
+
+.dom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dom2 {
+    height: 100px;
+}
+
+.anne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anne2 {
+    height: 100px;
+}
+
+.george {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.george2 {
+    height: 100px;
+}
+
+.livros button{
+    background-color: #46682e;
+    color: #117cc9;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.eventos h3{
+    display: flex;
+    justify-content: center;
+    color: #46682e;
+    text-decoration: underline;
+}
+
+
+
+
+.livros h3{
+    display: flex;
+    justify-content: center;
+    color: #46682e;
+    text-decoration: underline;
+}
+footer {
+    background-color: rgb(200, 196, 196);
+    padding: 20px;
+    text-size-adjust: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
