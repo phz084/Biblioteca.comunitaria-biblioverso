@@ -20,8 +20,6 @@ nav {
     background-color: #e0cfcf;  
     padding: 10px;  
     border-radius: 20%;
-    display: flex;
-    justify-content: space-around;
 }
 
 nav ul {
@@ -35,13 +33,12 @@ nav ul li {
 
 .doações {
     background-color: #117cc9;  
-    padding: 10px 0;  
+    padding: 10px ;  
     border-radius: 20%;
     display: flex;              
     justify-content: center;   
     list-style: none;
     color: whitesmoke;
-    width: 150%;
 }
 
 a {
@@ -58,7 +55,7 @@ a:active {
     align-items: center;
     border-radius: 5px;
     background-color: white;
-    padding: 5px 10px;
+    padding: 10px;
     max-width: 400px;
     width: 100%;
 }
@@ -67,13 +64,13 @@ a:active {
     border: none;
     padding: 5px;
     width: 100%;
-    outline: none;
 }
 
 .barra-pesquisa button {
     border: none;
     cursor: pointer;
     padding: 5px;
+    background-color: white;
 }
 
 .barra-pesquisa button p {
@@ -82,7 +79,7 @@ a:active {
 
 .texto-acervo, .texto-exibiçao {
     text-align: center;
-    margin: 40px 0;
+    margin: 40px;
     color: #117cc9;
 }
 
