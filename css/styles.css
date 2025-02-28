@@ -128,6 +128,7 @@ a:active {
     padding: 20px;
     border-radius: 20px;
     border: none;
+    margin-bottom: 20px;
 }
 
 .main {
@@ -201,19 +202,19 @@ a:active {
     padding: 20px;
     border-radius: 20px;
     border: none;
+    margin-bottom: 20px;
 }
 
 .eventos h3{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     color: #46682e;
     text-decoration: underline;
 }
 
-
-
-
 .livros h3{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     color: #46682e;
