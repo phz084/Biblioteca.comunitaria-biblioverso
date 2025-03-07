@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login e Cadastro</title>
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="form-container">
+            <input type="checkbox" id="toggle">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    <button type="submit">Entrar</button>
+                    <button class="guest-btn">Entrar como Convidado</button>
+                    <p>Não tem uma conta? <label for="toggle">Cadastre-se</label></p>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Cadastro</h2>
+                <form>
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    <button type="submit">Cadastrar</button>
+                    <p>Já tem uma conta? <label for="toggle">Faça Login</label></p>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
